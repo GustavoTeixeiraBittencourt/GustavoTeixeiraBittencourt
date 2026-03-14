@@ -1,4 +1,3 @@
-          <!-- FRASE DE IMPACTO COM EFEITO DE DIGITAÇÃO -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=2000&color=00D70C&center=true&vCenter=true&width=1000&lines=C%C3%B3digo+%C3%A9+apenas+o+meio.+Impacto+%C3%A9+o+objetivo." alt="Typing impact phrase" />
 </p>
