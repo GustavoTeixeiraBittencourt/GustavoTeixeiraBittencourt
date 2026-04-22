@@ -28,22 +28,22 @@ Atuo como desenvolvedor Backend no Comando da Policia Militar do estado do Pará
 
 ## 🚀 Projetos em Destaque
 
-### [Nome do Projeto 1](https://github.com/GustavoTeixeiraBittencourt/repo1)
-**Descrição breve do projeto** - O que ele faz e por que é importante.
-- 🛠️ Tecnologias: React, Node.js, MongoDB
-- ⭐ Destaques: Funcionalidade X, Integração Y
-- 📊 Estatísticas: [badges de stars, forks, etc]
+### [RAG- Langchain e chromadb](https://github.com/GustavoTeixeiraBittencourt/rag-langchain-chromadb)
+**Descrição breve do projeto** - Projeto educacional para aprender na prática como construir um sistema de RAG (Retrieval-Augmented Generation) — uma técnica que permite fazer perguntas sobre documentos usando LLMs, com objetivo de fortalecer os meus conhecimentos em Inteligência Artificial(IA).
+- 🛠️ Tecnologias: Python,LangChain,ChromaDB, 
+- ⭐ Destaques: Leitura de PDFS, Integração com banco de dados vetorial e utilizaçao da api da OPENAI
 
-### [Nome do Projeto 2](https://github.com/GustavoTeixeiraBittencourt/repo2)
-**Descrição breve do projeto** - Problema que resolve ou inovação que apresenta.
-- 🛠️ Tecnologias: TypeScript, PostgreSQL, Docker
-- ⭐ Destaques: Performance, Escalabilidade
-- 📦 Versão: v1.0.0
+### [Web Scraping Project - Reddit API](https://github.com/GustavoTeixeiraBittencourt/WebScrapping)
+**Descrição breve do projeto** - Projeto de web scraping para coletar e analisar dados do Reddit usando a API PRAW (Python Reddit API Wrapper).
 
-### [Nome do Projeto 3](https://github.com/GustavoTeixeiraBittencourt/repo3)
-**Descrição breve do projeto** - Contexto e resultado alcançado.
-- 🛠️ Tecnologias: Python, FastAPI, SQLite
-- ⭐ Destaques: API RESTful, Autenticação
+- Esse projeto foi realizado para a realização do artigo científico "Domestic Violence-Related Head and Neck Injuries: Social Media Web-Scraping”, que foi publicado na revista Dental Traumatology.
+- 🛠️ Tecnologias: python, pandas
+- ⭐ Destaques: coleta, limpeza e analise de dados, armazenamento em planilhas 
+
+### [API-REST](https://github.com/GustavoTeixeiraBittencourt/apirest-typescript)
+**Descrição breve do projeto** - API REST moderna construída com Fastify, TypeScript, Prisma e PostgreSQL. Sistema completo de autenticação JWT e gerenciamento de usuários.
+- 🛠️ Tecnologias: Typescript, Fastify, Prisma, Postgres SQL, Zod, Bcrypt, JWT
+- ⭐ Destaques: API RESTful, Autenticação, armazenamento
 
 ---
 
@@ -59,20 +59,11 @@ Atuo como desenvolvedor Backend no Comando da Policia Militar do estado do Pará
 
 ---
 
-## 🎓 Educação & Certificações
-
-- 📚 **[Curso/Bootcamp]** - Instituição (Ano)
-- 🏆 **Certificação em [Tecnologia]** - Plataforma (Ano)
-- 📖 Aprendizado contínuo em tecnologias emergentes
-
----
 
 ## 🌐 Conecte-se Comigo
 
 - 💼 **LinkedIn**: [linkedin.com/in/gustavo-teixeira](https://linkedin.com/in/seu-perfil)
-- 📧 **Email**: seu.email@exemplo.com
-- 🌍 **Portfólio**: [seu-portfolio.com](https://seu-portfolio.com)
-- 📱 **Twitter**: [@seu-twitter](https://twitter.com/seu-username)
+- 📧 **Email**: gustavoteixeirabdeoliveira@outlook.com
 
 ---
 
