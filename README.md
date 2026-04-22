@@ -88,9 +88,11 @@ Atuo como desenvolvedor Backend no Comando da Policia Militar do estado do Pará
 ## 📝 Artigos & Contribuições
 
 Confira meus artigos e participações em comunidades:
-- [Blog pessoal ou Medium](https://seu-link)
-- Contribuições em repositórios open source
-- Resposta a issues e discussões na comunidade
+
+### Domestic Violence-Related Head and Neck Injuries: Social Media Web-Scraping
+- [Publicação indexada no PubMed](https://pubmed.ncbi.nlm.nih.gov/40799068)
+- Aplicação de Web Scraping, limpeza e análise de dados utilizando Python e Pandas.
+- Artigo aceito para publicação na revista científica Dental Traumatology
 
 ---
 
