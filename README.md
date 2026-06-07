@@ -6,8 +6,8 @@
 
 ## 👋 Sobre Mim
 
-Sou graduando e representante do sétimo periodo de Engenharia da computação Centro Universitário do Estado do Pará(CESUPA).
-Atuo como desenvolvedor Backend no Comando da Policia Militar do estado do Pará, desenvolvendo soluções que otimizam o trabalho da equipe.
+Graduando e representante do sétimo periodo de Engenharia da computação Centro Universitário do Estado do Pará(CESUPA).
+Atualmente atuando como Desenvolvedor Backend no Comando Geral da Policia Militar do estado do Pará, desenvolvendo soluções que otimizam o trabalho da equipe.
 
 
 ---
@@ -45,6 +45,10 @@ Atuo como desenvolvedor Backend no Comando da Policia Militar do estado do Pará
 - 🛠️ Tecnologias: Typescript, Fastify, Prisma, Postgres SQL, Zod, Bcrypt, JWT
 - ⭐ Destaques: API RESTful, Autenticação, armazenamento
 
+### [Countries-API](https://github.com/GustavoTe1xeira/CountriesAPI)
+**Descrição breve do projeto** - Sistema Java que consome a API REST Countries para buscar informações sobre países e armazená-las em um banco de dados SQLite com operações CRUD completas.
+- 🛠️ Tecnologias: Java JDK 11 ou superior instalado,sqlite-jdbc-3.42.0.0.jar,gson-2.10.1.jar
+- ⭐ Destaques: Consumo de API-REST, armazenamento,CRUD
 ---
 
 ## 📈 Estatísticas GitHub
