@@ -6,7 +6,7 @@
 
 ## 👋 Sobre Mim
 
-Graduando e representante do sétimo periodo de Engenharia da computação Centro Universitário do Estado do Pará(CESUPA).
+Graduando e representante do Oitavo período de Engenharia da computação Centro Universitário do Estado do Pará(CESUPA).
 Atualmente atuando como Desenvolvedor Backend no Comando Geral da Policia Militar do estado do Pará, desenvolvendo soluções que otimizam o trabalho da equipe.
 
 
