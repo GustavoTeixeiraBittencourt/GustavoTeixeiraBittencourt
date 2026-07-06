@@ -1,4 +1,4 @@
-# Gustavo Teixeira Bittencourt
+# Gustavo Teixeira Bittencourt de Oliveira
 
 **Desenvolvedor Backend | Atualmente estudando Data Analytics/GenAI**
 
