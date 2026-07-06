@@ -1,6 +1,6 @@
 # Gustavo Teixeira Bittencourt
 
-**Desenvolvedor Backend | futuro AI engineer**
+**Desenvolvedor Backend | Atualmente estudando Data Analytics/GenAI
 
 ---
 
