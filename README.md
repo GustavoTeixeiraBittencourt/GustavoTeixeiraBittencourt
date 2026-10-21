@@ -1,120 +1,57 @@
 # Gustavo Teixeira Bittencourt de Oliveira
 
-**Software Engineer | Atualmente estudando MLOps/GenAI**
+**Software Engineer com foco em GenAI**
+
+Atuando como Engenheiro de Software no Comando Geral da Polícia Militar do Pará, onde desenvolvo sistemas internos de ponta a ponta com foco educacional (como o PICC, com mais de 10 mil usuários). 
 
 ---
 
-## 👋 Sobre Mim
+## Projetos em destaque
 
-Graduando e representante do Oitavo período de Engenharia da computação Centro Universitário do Estado do Pará(CESUPA).
-Atuando como Software Engineer no Comando Geral da Policia Militar do estado do Pará, desenvolvendo soluções que otimizam o trabalho da equipe. Atualmente estudando e desenvolvendo projetos sobre Inteligência Artificial e Machine learning Operations(MLOps), áreas na qual possuo interesse em atuar e contribuir futuramente.
+### [Sistema multiagente com RAG e busca web como fallback](https://github.com/GustavoTeixeiraBittencourt/processo-seletivo-2026)
+Seis agentes em LangGraph respondem perguntas sobre documentação, com busca híbrida (BM25 + RRF) e um verificador de fundamentação. No teste, 100% de acerto na decisão de fallback e 83,3% de respostas fundamentadas.
+`Python` `LangGraph` `ChromaDB` `Groq` `Tavily` `Streamlit` `Docker`
 
+### [Simulated Annealing vs. Gradient Boosting](https://github.com/GustavoTeixeiraBittencourt/simulated-annealing-vs-gradient-boosting)
+Comparação de algoritmos de busca local (roteamento de veículos elétricos) e de classificação de crédito (C4.5, CART e Gradient Boosting), com testes estatísticos e 60 testes automatizados. Projeto acadêmico em grupo.
+`Python` `scikit-learn` `SciPy` `Pandas` `pytest`
 
----
+### [Maré: analisador léxico e sintático de uma linguagem própria](https://github.com/GustavoTeixeiraBittencourt/Mare-analisador-lexico-e-sintatico)
+Scanner com expressões regulares e parser descendente recursivo, em Python puro (sem ANTLR, PLY ou Bison), para uma linguagem imperativa tipada com palavras-chave em português. Gera a árvore sintática, reporta erros com linha e coluna e se recupera deles em modo pânico. Projeto acadêmico em grupo.
+`Python` `Regex` `Parser descendente recursivo` `AST` `unittest`
 
-## 💼 Habilidades Técnicas
-
-### **Backend**
-- IA Generativa & LLMs: Engenharia de Prompts, Machine Learning, LLMs, APIs de Modelos de IA (OpenAI API, Groq),
-RAG (Retrieval-Augmented Generation), Sistemas Multiagente, LangChain, LangGraph, ChromaDB, Embeddings, Busca
-Semântica, Busca Híbrida (BM25 + RRF)
-- Linguagens & Análise de Dados: Python, Pandas, NumPy, análise exploratória de dados (EDA), limpeza e manipulação de
-bases de dados, Web Scraping
-- Bancos de Dados: PostgreSQL, MySQL, SQL, modelagem relacional, bancos vetoriais
-- Desenvolvimento Backend: Node.js, TypeScript, Fastify, REST APIs, JWT
-
-### **Frontend**
-- HTML, CSS, React.js
-
-
-### **Ferramentas & Plataformas**
-- Git/GitHub
-- Docker
-- CI/CD (GitHub Actions)
-- Linux (Ubuntu)
+### [Aplicação de analytics com assistente em linguagem natural](https://github.com/GustavoTeixeiraBittencourt/Cambara-Empreendimentos)
+Aplicação full stack sobre uma base de negócio com mais de 9 mil registros e inconsistências reais: 4 indicadores auditáveis, registro transacional de vendas e distratos, painel de qualidade de dados e um assistente text-to-SQL (LLM) restrito a consultas de leitura, com log de auditoria da consulta usada em cada resposta.
+`Python` `Streamlit` `SQLite` `Groq` `pandas` `pytest`
 
 ---
 
-## 🚀 Projetos em Destaque
+## Stack
 
-### [Sistema MultiAgentico de IA ](https://github.com/GustavoTeixeiraBittencourt/processo-seletivo-2026)
-**Descrição breve do projeto** - Sistema MultiAgentico de Inteligência Artificial criado para responder perguntas sobre o corpus de uma determinada documentação, no caso do projeto desenvolvido por mim foi consumido parte da documentação do LangGraph.
-- 🛠️ Tecnologias: Python,LangGraph,ChromaDB,Tavily (em caso de fallback),  Groq (llama-3.1-8b-instant), Embeddings: intfloat/multilingual-e5-small (CPU), Docker
-- ⭐ Destaques: Leitura de Markdown, Busca web em caso de fallback, Integração com banco de dados vetorial,utilizaçao da api do Groq, Interface gráfica, 6 agentes com papeis diferentes, Pipelines de Ingestão e consulta, busca lexica(BM25 + RRf), Deploy em docker
-
-### [RAG- Langchain e chromadb](https://github.com/GustavoTeixeiraBittencourt/rag-langchain-chromadb)
-**Descrição breve do projeto** - Projeto educacional para aprender na prática como construir um sistema de RAG (Retrieval-Augmented Generation) — uma técnica que permite fazer perguntas sobre documentos usando LLMs, com objetivo de fortalecer os meus conhecimentos em Inteligência Artificial(IA).
-- 🛠️ Tecnologias: Python,LangChain,ChromaDB, 
-- ⭐ Destaques: Leitura de PDFS, Integração com banco de dados vetorial e utilizaçao da api da OPENAI
-
-### [Web Scraping Project - Reddit API](https://github.com/GustavoTeixeiraBittencourt/WebScrapping)
-**Descrição breve do projeto** - Projeto de web scraping para coletar e analisar dados do Reddit usando a API PRAW (Python Reddit API Wrapper).
-
-- Esse projeto foi realizado para a realização do artigo científico "Domestic Violence-Related Head and Neck Injuries: Social Media Web-Scraping”, que foi publicado na revista Dental Traumatology.
-- 🛠️ Tecnologias: python, pandas
-- ⭐ Destaques: coleta, limpeza e analise de dados, armazenamento em planilhas 
-
-### [API-REST](https://github.com/GustavoTeixeiraBittencourt/apirest-typescript)
-**Descrição breve do projeto** - API REST moderna construída com Fastify, TypeScript, Prisma e PostgreSQL. Sistema completo de autenticação JWT e gerenciamento de usuários.
-- 🛠️ Tecnologias: Typescript, Fastify, Prisma, Postgres SQL, Zod, Bcrypt, JWT
-- ⭐ Destaques: API RESTful, Autenticação, armazenamento
-
-### [Countries-API](https://github.com/GustavoTe1xeira/CountriesAPI)
-**Descrição breve do projeto** - Sistema Java que consome a API REST Countries para buscar informações sobre países e armazená-las em um banco de dados SQLite com operações CRUD completas.
-- 🛠️ Tecnologias: Java JDK 11 ou superior instalado,sqlite-jdbc-3.42.0.0.jar,gson-2.10.1.jar
-- ⭐ Destaques: Consumo de API-REST, armazenamento,CRUD
----
-
-## 📈 Estatísticas GitHub
-
-<div align="center">
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=GustavoTeixeiraBittencourt&theme=tokyonight&show_icons=true&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GustavoTeixeiraBittencourt&theme=tokyonight&hide_border=true&layout=compact)
-
-</div>
+| Área | Tecnologias |
+|---|---|
+| **IA e LLMs** | LangChain, LangGraph, RAG, sistemas multiagente, embeddings, ChromaDB, Groq, OpenAI |
+| **Dados e ML** | Python, Pandas, NumPy, scikit-learn, SciPy, EDA, web scraping |
+| **Backend** | TypeScript, Node.js, Fastify, Prisma, REST, JWT, Streamlit |
+| **Bancos e BI** | PostgreSQL, MySQL, SQLite, SQL, Power BI, Looker Studio |
+| **Frontend** | React, HTML, CSS, JavaScript |
+| **Engenharia** | Git, Docker, GitHub Actions, Linux, pytest, Vitest, Scrum |
+| **Idiomas** | Português (nativo), inglês (C1), espanhol (avançado) |
 
 ---
 
+## Estudos
 
-## 🌐 Conecte-se Comigo
+- [rag-langchain-chromadb](https://github.com/GustavoTeixeiraBittencourt/rag-langchain-chromadb): primeiro pipeline de RAG sobre PDFs.
+- [EDA-telecom](https://github.com/GustavoTeixeiraBittencourt/EDA-telecom): análise exploratória de dados de churn.
+- [ai-engineering-from-scratch](https://github.com/GustavoTeixeiraBittencourt/ai-engineering-from-scratch): fork do currículo de engenharia de IA que estou acompanhando.
 
-- 💼 **LinkedIn**: [linkedin.com/in/gustavo-teixeira](https://linkedin.com/in/seu-perfil)
-- 📧 **Email**: gustavoteixeirabdeoliveira@outlook.com
+## Publicação
 
----
-
-## 💡 O Que Estou Fazendo Agora
-
-- 🔍 Explorando arquiteturas de microserviços
-- 📚 Aprendendo sobre IA e Machine Learning
-- 🤝 Aberto a contribuições em projetos open source
-- 💬 Disponível para colaborações e oportunidades interessantes
+**Domestic Violence-Related Head and Neck Injuries: Social Media Web-Scraping**, *Dental Traumatology* ([PubMed](https://pubmed.ncbi.nlm.nih.gov/40799068)). Coautoria, com a coleta, limpeza e análise dos dados em Python.
 
 ---
 
-## 📝 Artigos & Contribuições
+## Contato
 
-Confira meus artigos e participações em comunidades:
-
-### Domestic Violence-Related Head and Neck Injuries: Social Media Web-Scraping
-- [Publicação indexada no PubMed](https://pubmed.ncbi.nlm.nih.gov/40799068)
-- Aplicação de Web Scraping, limpeza e análise de dados utilizando Python e Pandas.
-- Artigo aceito para publicação na revista científica Dental Traumatology
-
----
-
-## 🎯 Objetivo
-
-Busco oportunidades desafiadoras que me permitam crescer profissionalmente, contribuir para projetos impactantes e trabalhar com equipes talentosas que compartilham a paixão por excelência técnica.
-
----
-
-<div align="center">
-
-### ⭐ Se você achou interessante, não esqueça de deixar uma estrela! ⭐
-
-![Visitors](https://komarev.com/ghpvc/?username=GustavoTeixeiraBittencourt&style=flat-square&color=blue)
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/gustavo-teixeira-044262266/) · gustavoteixeirabdeoliveira@outlook.com
