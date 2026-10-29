@@ -2,41 +2,45 @@
 
 **Software Engineer com foco em GenAI**
 
-Atuando como Engenheiro de Software no Comando Geral da Polícia Militar do Pará, onde desenvolvo sistemas internos de ponta a ponta com foco educacional (como o PICC, com mais de 10 mil usuários). 
+Atuando como Engenheiro de Software no Comando Geral da Polícia Militar do Pará, onde desenvolvo sistemas internos de ponta a ponta com foco educacional (como o PICC, com mais de 10 mil usuários).
 
 ---
 
 ## Projetos em destaque
 
 ### [Sistema multiagente com RAG e busca web como fallback](https://github.com/GustavoTeixeiraBittencourt/processo-seletivo-2026)
-Seis agentes em LangGraph respondem perguntas sobre documentação, com busca híbrida (BM25 + RRF) e um verificador de fundamentação. No teste, 100% de acerto na decisão de fallback e 83,3% de respostas fundamentadas.
-`Python` `LangGraph` `ChromaDB` `Groq` `Tavily` `Streamlit` `Docker`
+
+Seis agentes em LangGraph respondem perguntas sobre documentação, com busca híbrida (BM25 + RRF) e um verificador de fundamentação. No teste, 100% de acerto na decisão de fallback e 83,3% de respostas fundamentadas. `Python` `LangGraph` `ChromaDB` `Groq` `Tavily` `Streamlit` `Docker`
 
 ### [Simulated Annealing vs. Gradient Boosting](https://github.com/GustavoTeixeiraBittencourt/simulated-annealing-vs-gradient-boosting)
-Comparação de algoritmos de busca local (roteamento de veículos elétricos) e de classificação de crédito (C4.5, CART e Gradient Boosting), com testes estatísticos e 60 testes automatizados. Projeto acadêmico em grupo.
-`Python` `scikit-learn` `SciPy` `Pandas` `pytest`
+
+Comparação de algoritmos de busca local (roteamento de veículos elétricos) e de classificação de crédito (C4.5, CART e Gradient Boosting), com testes estatísticos e 60 testes automatizados. Projeto acadêmico em grupo. `Python` `scikit-learn` `SciPy` `Pandas` `pytest`
 
 ### [Maré: analisador léxico e sintático de uma linguagem própria](https://github.com/GustavoTeixeiraBittencourt/Mare-analisador-lexico-e-sintatico)
-Scanner com expressões regulares e parser descendente recursivo, em Python puro (sem ANTLR, PLY ou Bison), para uma linguagem imperativa tipada com palavras-chave em português. Gera a árvore sintática, reporta erros com linha e coluna e se recupera deles em modo pânico. Projeto acadêmico em grupo.
-`Python` `Regex` `Parser descendente recursivo` `AST` `unittest`
+
+Scanner com expressões regulares e parser descendente recursivo, em Python puro (sem ANTLR, PLY ou Bison), para uma linguagem imperativa tipada com palavras-chave em português. Gera a árvore sintática, reporta erros com linha e coluna e se recupera deles em modo pânico. Projeto acadêmico em grupo. `Python` `Regex` `Parser descendente recursivo` `AST` `unittest`
 
 ### [Aplicação de analytics com assistente em linguagem natural](https://github.com/GustavoTeixeiraBittencourt/Cambara-Empreendimentos)
-Aplicação full stack sobre uma base de negócio com mais de 9 mil registros e inconsistências reais: 4 indicadores auditáveis, registro transacional de vendas e distratos, painel de qualidade de dados e um assistente text-to-SQL (LLM) restrito a consultas de leitura, com log de auditoria da consulta usada em cada resposta.
-`Python` `Streamlit` `SQLite` `Groq` `pandas` `pytest`
+
+Aplicação full stack sobre uma base de negócio com mais de 9 mil registros e inconsistências reais: 4 indicadores auditáveis, registro transacional de vendas e distratos, painel de qualidade de dados e um assistente text-to-SQL (LLM) restrito a consultas de leitura, com log de auditoria da consulta usada em cada resposta. `Python` `Streamlit` `SQLite` `Groq` `pandas` `pytest`
+
+### [ACERVO: leilão online com lances em tempo real e histórico auditável](https://github.com/GustavoTeixeiraBittencourt/leilao-project)
+
+Casa de leilões full stack (teste técnico) com obras do acervo aberto do Cleveland Museum of Art, com [demo no ar](https://leilao-project-seven.vercel.app). Lances em tempo real via SSE, anti-sniping, carteira com saldo comprometido, liquidação idempotente por worker e auditoria pública do histórico de lances com cadeia de hash HMAC-SHA256. A transação do lance usa travas pessimistas (`FOR UPDATE`) para evitar condições de corrida, e a API é documentada em Swagger. Mais de 300 testes automatizados. `TypeScript` `Fastify` `React` `PostgreSQL` `Prisma` `Docker` `Vitest`
 
 ---
 
 ## Stack
 
-| Área | Tecnologias |
-|---|---|
-| **IA e LLMs** | LangChain, LangGraph, RAG, sistemas multiagente, embeddings, ChromaDB, Groq, OpenAI |
-| **Dados e ML** | Python, Pandas, NumPy, scikit-learn, SciPy, EDA, web scraping |
-| **Backend** | TypeScript, Node.js, Fastify, Prisma, REST, JWT, Streamlit |
-| **Bancos e BI** | PostgreSQL, MySQL, SQLite, SQL, Power BI, Looker Studio |
-| **Frontend** | React, HTML, CSS, JavaScript |
-| **Engenharia** | Git, Docker, GitHub Actions, Linux, pytest, Vitest, Scrum |
-| **Idiomas** | Português (nativo), inglês (C1), espanhol (avançado) |
+| Área            | Tecnologias                                                                         |
+|-----------------|-------------------------------------------------------------------------------------|
+| **IA e LLMs**   | LangChain, LangGraph, RAG, sistemas multiagente, embeddings, ChromaDB, Groq, OpenAI |
+| **Dados e ML**  | Python, Pandas, NumPy, scikit-learn, SciPy, EDA, web scraping                       |
+| **Backend**     | TypeScript, Node.js, Fastify, Prisma, Zod, REST, OpenAPI/Swagger, JWT, SSE, Streamlit |
+| **Bancos e BI** | PostgreSQL, MySQL, SQLite, SQL, Power BI, Looker Studio                             |
+| **Frontend**    | React, TypeScript, Vite, TanStack Query, HTML, CSS, JavaScript                      |
+| **Engenharia**  | Git, Docker, GitHub Actions, Linux, pytest, Vitest, Render, Vercel, Scrum           |
+| **Idiomas**     | Português (nativo), inglês (C1), espanhol (avançado)                                |
 
 ---
 
