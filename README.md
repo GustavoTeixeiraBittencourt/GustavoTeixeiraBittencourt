@@ -12,6 +12,10 @@ Atuando como Engenheiro de Software no Comando Geral da Polícia Militar do Par�
 
 Seis agentes em LangGraph respondem perguntas sobre documentação, com busca híbrida (BM25 + RRF) e um verificador de fundamentação. No teste, 100% de acerto na decisão de fallback e 83,3% de respostas fundamentadas. `Python` `LangGraph` `ChromaDB` `Groq` `Tavily` `Streamlit` `Docker`
 
+### [Agente de atendimento ao cliente com function calling](https://github.com/GustavoTeixeiraBittencourt/emporio-agent)
+
+Agente conversacional em português para uma loja de instrumentos musicais fictícia, com 7 ferramentas sobre dados em CSV e um manual de políticas. O modelo decide quando chamar cada ferramenta; o código decide o que é permitido e faz todo o cálculo (preço, estoque, parcelamento, prazo de devolução). Recuperação de políticas com BM25 próprio, privacidade garantida em código (o modelo nunca vê contato do cliente nem estoque exato) e mais de 60 testes automatizados que rodam sem rede. `Python` `Function calling` `BM25` `Groq` `pytest`
+
 ### [Simulated Annealing vs. Gradient Boosting](https://github.com/GustavoTeixeiraBittencourt/simulated-annealing-vs-gradient-boosting)
 
 Comparação de algoritmos de busca local (roteamento de veículos elétricos) e de classificação de crédito (C4.5, CART e Gradient Boosting), com testes estatísticos e 60 testes automatizados. Projeto acadêmico em grupo. `Python` `scikit-learn` `SciPy` `Pandas` `pytest`
@@ -24,9 +28,9 @@ Scanner com expressões regulares e parser descendente recursivo, em Python puro
 
 Aplicação full stack sobre uma base de negócio com mais de 9 mil registros e inconsistências reais: 4 indicadores auditáveis, registro transacional de vendas e distratos, painel de qualidade de dados e um assistente text-to-SQL (LLM) restrito a consultas de leitura, com log de auditoria da consulta usada em cada resposta. `Python` `Streamlit` `SQLite` `Groq` `pandas` `pytest`
 
-### [ACERVO: leilão online com lances em tempo real e histórico auditável](https://github.com/GustavoTeixeiraBittencourt/leilao-project)
+### [ACERVO: leilão online com lances em tempo real e histórico auditável](https://github.com/GustavoTeixeiraBittencourt/Acervo-leilao)
 
-Casa de leilões full stack (teste técnico) com obras do acervo aberto do Cleveland Museum of Art, com [demo no ar](https://leilao-project-seven.vercel.app). Lances em tempo real via SSE, anti-sniping, carteira com saldo comprometido, liquidação idempotente por worker e auditoria pública do histórico de lances com cadeia de hash HMAC-SHA256. A transação do lance usa travas pessimistas (`FOR UPDATE`) para evitar condições de corrida, e a API é documentada em Swagger. Mais de 300 testes automatizados. `TypeScript` `Fastify` `React` `PostgreSQL` `Prisma` `Docker` `Vitest`
+Casa de leilões full stack com obras do acervo aberto do Cleveland Museum of Art, com [demo no ar](https://acervo-leilao.vercel.app). Lances em tempo real via SSE, anti-sniping, carteira com saldo comprometido, liquidação idempotente por worker e auditoria pública do histórico de lances com cadeia de hash HMAC-SHA256. A transação do lance usa travas pessimistas (`FOR UPDATE`) para evitar condições de corrida, e a API é documentada em Swagger. Mais de 300 testes automatizados. `TypeScript` `Fastify` `React` `PostgreSQL` `Prisma` `Docker` `Vitest`
 
 ---
 
@@ -34,7 +38,7 @@ Casa de leilões full stack (teste técnico) com obras do acervo aberto do Cleve
 
 | Área            | Tecnologias                                                                         |
 |-----------------|-------------------------------------------------------------------------------------|
-| **IA e LLMs**   | LangChain, LangGraph, RAG, sistemas multiagente, embeddings, ChromaDB, Groq, OpenAI |
+| **IA e LLMs**   | LangChain, LangGraph, RAG, function calling, sistemas multiagente, embeddings, ChromaDB, Groq, OpenAI |
 | **Dados e ML**  | Python, Pandas, NumPy, scikit-learn, SciPy, EDA, web scraping                       |
 | **Backend**     | TypeScript, Node.js, Fastify, Prisma, Zod, REST, OpenAPI/Swagger, JWT, SSE, Streamlit |
 | **Bancos e BI** | PostgreSQL, MySQL, SQLite, SQL, Power BI, Looker Studio                             |
